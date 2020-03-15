@@ -5,8 +5,8 @@ using Паттерн_Стратегия.Interface;
 
 namespace Паттерн_Стратегия.Logical
 {
-    public class MediumWorker : IWorker
+    public class MediumWork : IWorker
     {
-        public string Message => nameof(MediumWorker);
+        public string Message => nameof(MediumWork);
     }
 }

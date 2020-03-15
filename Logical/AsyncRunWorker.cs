@@ -16,7 +16,7 @@ namespace Паттерн_Стратегия.Logical
             List<IWorker> _workers = new List<IWorker>()
             {
                 new HardWork(),
-                new MediumWorker(),
+                new MediumWork(),
                 new IziWork()
             };
 
